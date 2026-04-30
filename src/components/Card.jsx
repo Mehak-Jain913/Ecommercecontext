@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import "./Card.css"
+import "./card.css"
 import { Link } from "react-router-dom"
 import { ProductContext } from "../context/ProductContext"
 
