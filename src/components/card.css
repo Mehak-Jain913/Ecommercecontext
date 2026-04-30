@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #111;
+  color: #fff;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 120px;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card h4 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+}

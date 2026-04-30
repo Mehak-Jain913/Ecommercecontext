@@ -1,0 +1,31 @@
+.cart {
+  padding: 2rem;
+}
+
+.cart h2 {
+  margin-bottom: 1.5rem;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  gap: 1rem;
+}
+
+.cartItem img {
+  border-radius: 0.5rem;
+}
+
+.cartItem h3 {
+  flex: 1;
+}
+
+.cartItem p {
+  font-weight: bold;
+  color: #2ecc71;
+}
